@@ -1,0 +1,23 @@
+/*Este es el bloque de css que se va a usar para dar estilos al texto*/
+h1 {
+
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    width: 120px;
+    height: 80px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Este es el bloque de css que se va a usar para dar estilos a las imágenes*/
+.britonNeedsYou {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
