@@ -6,10 +6,28 @@ h1 {
 
 p {
     text-align: justify;
-    width: 120px;
-    height: 80px;
+   
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Este es el bloque de css que se va a usar para dar estilos a los contenedores */
+.mainCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+footer {
+    display: block;
+    margin: auto;
+}
+
+.articuloCentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
