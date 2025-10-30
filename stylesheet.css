@@ -1,22 +1,26 @@
 /*Este es el bloque de css que se va a usar para dar estilos al texto*/
 h1 {
-
     text-align: center;
+}
+
+.tituloFormulario {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
 }
 
 p {
     text-align: justify;
-   
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/***************************************************/
 
 /* Este es el bloque de css que se va a usar para dar estilos a los contenedores */
 .mainCentrado {
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 
 footer {
     display: block;
@@ -29,8 +33,7 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-
-
+/***************************************************/
 
 /*Este es el bloque de css que se va a usar para dar estilos a las imágenes*/
 .britonNeedsYou {
@@ -39,3 +42,46 @@ footer {
     display: block;
     margin: auto;
 }
+
+/***************************************************/
+
+/*Este es el bloque de css que se va a usar para dar estilos a los formularios*/
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 20px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.checkbox {
+    margin: 0;
+    left: 20px;
+}
+.botonFormulario{
+    background-color: #2e77e4;
+    color: white;
+    border: none;
+    cursor: pointer;}
+    
+/* form input[type="submit"] {
+    background-color: #2e77e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+} */
