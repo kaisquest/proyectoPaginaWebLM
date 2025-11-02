@@ -6,25 +6,107 @@ h1 {
 .tituloFormulario {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(44, 44, 44);
+    padding-left: 20px;
 }
 
-p {
-    text-align: justify;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+
+.textoCita {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+    color: #111010;
 }
+
+.textoCita a {
+    color: #111010;
+    text-decoration: underline;
+}
+
 /***************************************************/
 
 /* Este es el bloque de css que se va a usar para dar estilos a los contenedores */
-.mainCentrado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/* En este espacio se modifica todo lo relacionado con el footer */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    position: static;
+    padding: 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
-footer {
+/***************************************************/
+
+/* En este espacio se modifica todo lo relacionado con el header y la barra de navegación */
+header {
+    background-color: #111010;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+
+.navegacion {
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navegacion ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/***************************************************/
+
+/* En este espacio se modifican los contenedores dentro del body referentes a contenido */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.britonDiv {
+    padding: 10px 15px;
+    width: 20%;
+    height: 20%;
     display: block;
     margin: auto;
+}
+
+.seccionFormulario {
+    margin-top: 5%;
 }
 
 .articuloCentral {
@@ -33,13 +115,25 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
+.mainCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /***************************************************/
 
 /*Este es el bloque de css que se va a usar para dar estilos a las imágenes*/
 .britonNeedsYou {
-    width: 20%;
-    height: 20%;
-    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logoHeader {
+    width: 40%;
+    height: 40%;
     margin: auto;
 }
 
@@ -56,13 +150,20 @@ form {
 
 form label {
     display: block;
-    margin: 5px 0 20px;
+    margin: 5px 0 5px;
 }
 
 form input,
-form select,
 form textarea {
-    width: 100%;
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form select {
+    width: 20%;
     padding: 10px;
     margin: 5px 0 20px;
     border-radius: 4px;
@@ -70,18 +171,29 @@ form textarea {
 }
 
 .checkbox {
-    margin: 0;
-    left: 20px;
+    width: auto;
+    /* No ocupar el 100% del ancho */
+    margin: 0 10px 0 0;
+    /* Reducir márgenes */
+    display: inline-block;
+    /* Permitir que esté en línea */
 }
-.botonFormulario{
-    background-color: #2e77e4;
-    color: white;
-    border: none;
-    cursor: pointer;}
-    
-/* form input[type="submit"] {
+
+.label-checkbox {
+    display: inline;
+    margin: 0;
+}
+
+.botonFormulario {
+    width: 30%;
     background-color: #2e77e4;
     color: white;
     border: none;
     cursor: pointer;
-} */
+    margin: 30px auto auto auto;
+    display: block;
+}
+
+.botonFormulario:hover {
+    background-color: #45a049;
+}

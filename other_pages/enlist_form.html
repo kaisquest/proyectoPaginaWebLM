@@ -9,12 +9,41 @@
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <a href="/ProyectoFinalTrimestre/index.html"><img class="logoHeader"
+                    src="/ProyectoFinalTrimestre/img/logoWhite.png"
+                    alt="Imagen de logo de la página que dice Bajo la trinchera"></a>
+        </div>
+        <div class="navegacion">
+            <ul>
+                <a href="/ProyectoFinalTrimestre/other_pages/battle_of_the_dead_men.html">
+                    <li>Batalla de los hombres muertos</li>
+                </a>
+                <a href="/ProyectoFinalTrimestre/other_pages/battle_of_the_somme.html">
+                    <li>Batalla del Somme</li>
+                </a>
+                <a href="/ProyectoFinalTrimestre/other_pages/tanks_at_Cambrai.html">
+                    <li>Cambrai</li>
+                </a>
+                <a href="/ProyectoFinalTrimestre/other_pages/enlist_form.html">
+                    <li>¡Alístate!</li>
+                </a>
+
+            </ul>
+        </div>
+    </header>
+
     <main>
-        <div>
+        <div class="britonDiv">
             <img class="britonNeedsYou" src="/ProyectoFinalTrimestre/img/Briton_needs_you.jpg"
                 alt="Imagen de un cartel propagandístico de la época que dice 'Briton Needs You' que arenga al reclutamiento voluntario">
+            <p class="textoCita">UK. Alfred Leete (1882-1933). Britons (Kitchener) wants you (British / Kitchener /
+                needs you). 1914 (reprint). Dominio Público. <a
+                    href="https://en.wikipedia.org/wiki/Lord_Kitchener_Wants_You" target="_blank">Fuente: Wikipedia</a>
+            </p>
         </div>
-        <section>
+        <section class="seccionFormulario">
             <h2 class="tituloFormulario">Alístate con nosotros</h2>
             <form action="" method="post">
                 <label for="nombre">Nombre Completo</label>
@@ -40,19 +69,23 @@
 
                 <textarea id="interes" name="interes" rows="4"
                     placeholder="El tratamiento que hacéis de la historia social"></textarea>
+                <br>
+
+                <input class="checkbox" type="checkbox" id="LODP" value="ok" required>
+                <label class="label-checkbox" for="LOPD">Estoy de acuerdo con el tratamiento de mis datos</label>
+                <br>
 
 
-                <label for="LOPD">Estoy de acuerdo con el tratamiento de mis datos</label>
-                <input class="checkbox" type="checkbox" id="datos" id="LODP" value="ok" required>
-
-
-                <input class="botonFormulario" type="submit" id="enviar" id="enviar" value="Enviar información">
+                <input class="botonFormulario" type="submit" id="enviar" value="Enviar información">
 
             </form>
 
 
         </section>
     </main>
+    <footer>
+        <p>Proyecto creado por Iván Fernández López para Linguaxe de Marcas</p>
+    </footer>
 
 </body>
 
