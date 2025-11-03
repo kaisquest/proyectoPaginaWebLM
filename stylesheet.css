@@ -1,15 +1,38 @@
 /*Este es el bloque de css que se va a usar para dar estilos al texto*/
-h1 {
-    text-align: center;
+
+/* Este espacio modifica el texto de los divs que son el artículo central */
+.articuloCentral h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
 }
 
+.articuloCentral p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;
+
+}
+
+.articuloCentral a {
+    color: #111010;
+    text-decoration: solid;
+    font-weight: bolder;
+
+}
+
+/***************************************************/
+
+/* Este espacio modifica el texto dentro del formulario */
 .tituloFormulario {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(44, 44, 44);
     padding-left: 20px;
 }
 
+/***************************************************/
 
+/* Este espacio modifica el texto dentro de las citas */
 .textoCita {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -18,6 +41,18 @@ h1 {
 }
 
 .textoCita a {
+    color: #111010;
+    text-decoration: underline;
+}
+
+.articuloCentral .textoCita {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+    color: #111010;
+}
+
+.articuloCentral .textoCita a {
     color: #111010;
     text-decoration: underline;
 }
@@ -105,6 +140,18 @@ main {
     margin: auto;
 }
 
+.fotoDer {
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 1px solid red;
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+
+
+}
+
 .seccionFormulario {
     margin-top: 5%;
 }
@@ -114,17 +161,42 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid red;
+
 }
 
 .mainCentrado {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.cuerpoArticulo {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 90%;
+    border: 1px solid red;
+    padding: 10px 15px;
+    display: flex;
+
+
+}
+
+.textoIzq {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 10px 15px;
+
 }
 
 /***************************************************/
 
-/*Este es el bloque de css que se va a usar para dar estilos a las imágenes*/
+/*Este es el bloque de css que se va a usar para dar estilos a las imágenes y a los contenedores de las imágenes*/
 .britonNeedsYou {
     width: 100%;
     height: 100%;
@@ -136,6 +208,12 @@ main {
     height: 40%;
     margin: auto;
 }
+
+.fotoDer img {
+    height: 100%;
+    width: 100%;
+}
+
 
 /***************************************************/
 
@@ -197,3 +275,27 @@ form select {
 .botonFormulario:hover {
     background-color: #45a049;
 }
+
+/***************************************************/
+
+
+/* Este bloque de css se va a usar para dar estilos a las tablas */
+
+.cuerpoArticulo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.cuerpoArticulo table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.cuerpoArticulo table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
