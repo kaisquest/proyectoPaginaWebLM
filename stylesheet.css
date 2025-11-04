@@ -162,14 +162,43 @@ main {
     align-items: center;
     flex-direction: column;
     border: 1px solid red;
+}
 
+.articuloInicial {justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;}
+
+.articuloInicial .tituloArticulos {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #080707;
 }
 
 .mainCentrado {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.mainPrincipal {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.cuerpoIndex {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 90%;
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+
+.cuerpoIndex a {
+    text-decoration: none;
 }
 
 .cuerpoArticulo {
@@ -181,6 +210,26 @@ main {
     border: 1px solid red;
     padding: 10px 15px;
     display: flex;
+}
+
+.cuerpoArticulo .h3Centrado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.cuerpoArticulo .tituloPagina {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: rgb(77, 75, 75);
+
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 10px 15px;
 }
 
 .textoIzq {
