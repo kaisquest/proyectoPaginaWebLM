@@ -149,6 +149,16 @@ main {
     height: 100%;
     width: 100%;
 
+}
+
+.fotoIzq {
+    margin-right: 5%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 1px solid red;
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -202,8 +212,6 @@ main {
 .cuerpoIndex a {
     text-decoration: none;
     color: #333;
-   
-
 }
 
 
@@ -247,6 +255,8 @@ main {
     padding: 10px 15px;
 }
 
+
+
 .textoCent {
     margin: auto;
     height: fit-content;
@@ -282,6 +292,11 @@ main {
 }
 
 .fotoDer img {
+    height: 100%;
+    width: 100%;
+}
+
+.fotoIzq img {
     height: 100%;
     width: 100%;
 }
