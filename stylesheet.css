@@ -23,14 +23,6 @@
 
 /***************************************************/
 
-/* Este espacio modifica el texto dentro del formulario */
-.tituloFormulario {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(44, 44, 44);
-    padding-left: 20px;
-}
-
-/***************************************************/
 
 /* Este espacio modifica el texto dentro de las citas */
 .textoCita {
@@ -61,85 +53,14 @@
 
 /* Este es el bloque de css que se va a usar para dar estilos a los contenedores */
 
-/* En este espacio se modifica todo lo relacionado con el footer */
-footer {
-    text-align: center;
-    color: white;
-    background-color: #333;
-    position: static;
-    padding: 10px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-}
-
-/***************************************************/
-
-/* En este espacio se modifica todo lo relacionado con el header y la barra de navegación */
-header {
-    background-color: #111010;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-.navegacion {
-    margin-left: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    display: inline-block;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-.navegacion ul {
-    list-style: none;
-}
-
-.navegacion ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-.navegacion ul a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 
-/***************************************************/
 
 /* En este espacio se modifican los contenedores dentro del body referentes a contenido */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
-main {
-    margin-top: 50px;
-    padding: 20px;
-}
 
 /* Este es el contenedor de la imagen del formulario */
-.britonDiv {
-    padding: 10px 15px;
-    width: 20%;
-    height: 20%;
-    display: block;
-    margin: auto;
-}
+
 
 /* Estos son los contenedores de las imágenes que hay en los artículos */
 .fotoDer {
@@ -194,17 +115,7 @@ main {
     color: #080707;
 }
 
-.mainCentrado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.mainPrincipal {
-    display: block;
-    justify-content: center;
-    align-content: center;
-}
 
 .cuerpoIndex {
     margin: auto;
@@ -284,18 +195,6 @@ main {
 /***************************************************/
 
 /*Este es el bloque de css que se va a usar para dar estilos a las imágenes y a los contenedores de las imágenes*/
-.britonNeedsYou {
-    width: 100%;
-    height: 100%;
-
-}
-
-.logoHeader {
-    width: 40%;
-    height: 40%;
-    margin: auto;
-}
-
 .fotoDer img {
     height: 100%;
     width: 100%;
@@ -309,7 +208,265 @@ main {
 
 /***************************************************/
 
-/*Este es el bloque de css que se va a usar para dar estilos a los formularios*/
+
+
+
+/***************************************************/
+
+
+/* Este bloque de css se va a usar para dar estilos a las tablas */
+
+.cuerpoArticulo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.cuerpoArticulo table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.cuerpoArticulo table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cuerpoArticulo table ol {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ##################################################################### */
+/* #############        MODIFICADORES GENÉRICOS     #################### */
+/* ##################################################################### */
+
+
+/* -----------------------       HEADER      --------------------------- */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con el header y la barra de navegación */
+header {
+    background-color: #111010;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* -------------------       Logo Header         ----------------------- */
+/* ---------------       .logo / .logoHeader       --------------------- */
+/* ********************************************************************* */
+
+/* Esta es la clase que modifica el logo de la barra de navegación */
+.logo {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+
+/* Esta clase modifica las propiedades DE LA IMAGEN del logo en la barra de navegación */
+.logoHeader {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* ----------------        Botones Navegación      --------------------- */
+/* ---------------------       .navegacion      ------------------------ */
+/* ********************************************************************* */
+
+/* Esta clase modifica cómo actúa el DIV de navegación: fuente, márgenes, cómo se coloca */
+.navegacion {
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+
+/* Estas modificaciones afectan dentro del DIV a la LISTA NO ORDENADA y a la etiqueta A: quitar decoraciones y estilos, colocación */
+.navegacion ul {
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navegacion ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* ------------------------       BODY      ---------------------------- */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con la etiqueta body. Se modifica la fuente usada,
+márgenes que va a tener y el color de fondo del body */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* ------------------------       MAIN      ---------------------------- */
+/* --------------   .mainCentrado / .mainPrincipal    ------------------ */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con la etiqueta main. Incluye 2 clases que se usan 
+en la página index.html que es .mainPrincipal. Después el .mainCentrado se usa en el resto de páginas .html
+menos en enlist_form.html */
+
+
+main {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+/* Esta clase permite que el main esté centrado en una página que va a tener distintos tipos de contenido dentro
+y que su disposición pueda ser flexible entre los bloques interiores */
+.mainCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Esta clase sólo se utiliza en index.html para colocar sus elementos fijos en el centro del main */
+.mainPrincipal {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* -----------------------       FOOTER      --------------------------- */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con el footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    position: static;
+    padding: 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+
+
+
+/* ##################################################################### */
+/* ########################        ÍNDEX      ########################## */
+/* ##################################################################### */
+
+
+
+
+
+
+
+
+
+
+
+/* ##################################################################### */
+/* ##################        ENLIST_FORM.HTML      ##################### */
+/* ##################################################################### */
+
+/* En este bloque va todo lo relacionado con la página enlist_form.html */
+
+
+/* ----------------        Imagen Formulario      ---------------------- */
+/* ------------------        .britonNeedsYou      ---------------------- */
+/* ********************************************************************* */
+
+/* Esta es la clase que da los atributos a la IMG que está dentro del DIV .britonDiv . Se usa para que la 
+imagen ocupe su 100% pero siempre dentro del contenedor. Si esta clase no se usa la imagen no se ajusta al tamaño
+del DIV .britonDiv */
+
+.britonNeedsYou {
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------        División Imagen Formulario      ---------------- */
+/* --------------------        .britonDiv      ------------------------- */
+/* ********************************************************************* */
+
+/* Este DIV se utiliza para dar las dimensiones que va a tener la imagen de la página enlist_form.html.
+Sirve para agrupar los elementos internos, centrarlos con el margin, su tamaño o el padding.
+Dentro de este DIV se usan las clases .britonNeedsYou (ENLIST_FORM.HTML) y .textoCita() */
+.britonDiv {
+    padding: 10px 15px;
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
+
+
+/* -----------------        Sección Formulario      -------------------- */
+/* -----------------        .seccionFormulario      -------------------- */
+/* ********************************************************************* */
+
+/* Esta clase se utiliza para modificar una SECTION dentro de enlist_form.html para separarla de la parte superior  */
+.seccionFormulario {
+    margin-top: 5%;
+}
+
+
+
+/* ----------------------        Formulario      ----------------------- */
+/*form / .checkbox / .label-checkbox / .botonFormulario / tituloFormulario*/
+/* ********************************************************************* */
+
+/*Este es el bloque de css que modifica todo lo relacionado con los FORM. Incluye modificaciones directas a las etiquetas 
+<form> y clases específicas para determinadas partes del formulario como .tituloFormulario, .checkbox, .label-checkbox, 
+.botonFormulario y .botonFormulario:hover  */
+
+/* Esta clase modifica el H2 dentro del formulario cambiando el color del texto, fuente usada y padding. */
+.tituloFormulario {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+    padding-left: 20px;
+}
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -340,6 +497,8 @@ form select {
     border: 1px solid #ccc;
 }
 
+/* Esta clase se usa para que el  INPUT TYPE="CHECKBOX" se quede alineado con el siguiente elemto y no se coloque
+ni encima ni debajo.*/
 .checkbox {
     width: auto;
     /* No ocupar el 100% del ancho */
@@ -348,12 +507,15 @@ form select {
     display: inline-block;
     /* Permitir que esté en línea */
 }
-
+/* Esta clase se usa para que el texto después del .checkbox vaya en línea y no se coloque ni encima ni debajo.*/
 .label-checkbox {
     display: inline;
     margin: 0;
 }
 
+
+/* Esta clase se utiliza para dar un formato concreto al INPUT TYPE="SUBMIT" donde se modifica su ancho, color de botón, 
+márgenes, color de texto. La clase .botonFormulario:hover sólo modifica el color cuando el ratón está sobre el botón.  */
 .botonFormulario {
     width: 30%;
     background-color: #2e77e4;
@@ -368,33 +530,8 @@ form select {
     background-color: #45a049;
 }
 
-.seccionFormulario {
-    margin-top: 5%;
-}
-
-/***************************************************/
 
 
-/* Este bloque de css se va a usar para dar estilos a las tablas */
-
-.cuerpoArticulo table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
 
-.cuerpoArticulo table th,
-table td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
 
-.cuerpoArticulo table caption {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.cuerpoArticulo table ol {
-    list-style: none;
-}
