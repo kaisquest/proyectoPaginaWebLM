@@ -1,255 +1,7 @@
-/*Este es el bloque de css que se va a usar para dar estilos al texto*/
-
-/* Este espacio modifica el texto de los divs que son el artículo central */
-.articuloCentral h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-}
-
-.articuloCentral p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    text-align: justify;
-
-}
-
-.articuloCentral a {
-    color: #111010;
-    text-decoration: solid;
-    font-weight: bolder;
-
-}
-
-/***************************************************/
-
-
-/* Este espacio modifica el texto dentro de las citas */
-.textoCita {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: small;
-    color: #111010;
-}
-
-.textoCita a {
-    color: #111010;
-    text-decoration: underline;
-}
-
-.articuloCentral .textoCita {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: small;
-    color: #111010;
-}
-
-.articuloCentral .textoCita a {
-    color: #111010;
-    text-decoration: underline;
-}
-
-/***************************************************/
-
-/* Este es el bloque de css que se va a usar para dar estilos a los contenedores */
-
-
-
-
-/* En este espacio se modifican los contenedores dentro del body referentes a contenido */
-
-
-/* Este es el contenedor de la imagen del formulario */
-
-
-/* Estos son los contenedores de las imágenes que hay en los artículos */
-.fotoDer {
-    margin-left: 5%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px 15px;
-    border: 1px solid red;
-    padding: 10px 15px;
-    height: 100%;
-    width: 100%;
-
-}
-
-.fotoIzq {
-    margin-right: 5%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px 15px;
-    border: 1px solid red;
-    padding: 10px 15px;
-    height: 100%;
-    width: 100%;
-
-}
-
-
-
-.articuloCentral {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid red;
-}
-
-.articuloCentral a {
-    text-decoration: underline;
-    color: #003483;
-}
-
-.articuloInicial {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid red;
-}
-
-.articuloInicial .tituloArticulos {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-    color: #080707;
-}
-
-
-
-.cuerpoIndex {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 85%;
-    height: 90%;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-.cuerpoIndex a {
-    text-decoration: none;
-    color: #333;
-}
-
-.cuerpoArticulo {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 85%;
-    height: 90%;
-    border: 1px solid red;
-    padding: 10px 15px;
-    display: flex;
-}
-
-.cuerpoArticulo .h3Centrado {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    font-size: x-large;
-}
-
-.cuerpoArticulo .tituloPagina {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    font-size: xx-large;
-    color: rgb(77, 75, 75);
-
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-.textoIzq {
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-
-
-.textoCent {
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid red;
-    padding: 10px 15px;
-}
-
-.textoCent .h2Centrado {
-    text-align: center;
-}
-
-.textoCent .h3Centrado {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    font-size: x-large;
-}
-
-/***************************************************/
-
-/*Este es el bloque de css que se va a usar para dar estilos a las imágenes y a los contenedores de las imágenes*/
-.fotoDer img {
-    height: 100%;
-    width: 100%;
-}
-
-.fotoIzq img {
-    height: 100%;
-    width: 100%;
-}
-
-
-/***************************************************/
-
-
-
-
-/***************************************************/
-
-
-/* Este bloque de css se va a usar para dar estilos a las tablas */
-
-.cuerpoArticulo table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-
-.cuerpoArticulo table th,
-table td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
-
-.cuerpoArticulo table caption {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.cuerpoArticulo table ol {
-    list-style: none;
-}
-
-
-
-
-
-
-
-
-
-
 /* ##################################################################### */
 /* #############        MODIFICADORES GENÉRICOS     #################### */
 /* ##################################################################### */
+
 
 
 /* -----------------------       HEADER      --------------------------- */
@@ -263,10 +15,13 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
-/* -------------------       Logo Header         ----------------------- */
+
+
+/* ------------------------       DIV         -------------------------- */
 /* ---------------       .logo / .logoHeader       --------------------- */
 /* ********************************************************************* */
 
@@ -275,7 +30,7 @@ header {
     margin: auto;
     height: fit-content;
     width: fit-content;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px 15px;
 }
 
@@ -285,11 +40,14 @@ header {
     height: 40%;
     margin: auto;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
-/* ----------------        Botones Navegación      --------------------- */
-/* ---------------------       .navegacion      ------------------------ */
+
+
+/* -----------------------        NAV      ----------------------------- */
+/* --------------------       .navegacion      ------------------------- */
 /* ********************************************************************* */
 
 /* Esta clase modifica cómo actúa el DIV de navegación: fuente, márgenes, cómo se coloca */
@@ -298,11 +56,12 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px 15px;
 }
 
-/* Estas modificaciones afectan dentro del DIV a la LISTA NO ORDENADA y a la etiqueta A: quitar decoraciones y estilos, colocación */
+/* Estas modificaciones afectan dentro del DIV a la LISTA NO ORDENADA y a la etiqueta <a> 
+y sirve para quitar decoraciones y estilos y modificar la colocación */
 .navegacion ul {
     list-style: none;
 }
@@ -317,7 +76,10 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
 
 
 /* ------------------------       BODY      ---------------------------- */
@@ -332,7 +94,10 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
 
 
 /* ------------------------       MAIN      ---------------------------- */
@@ -364,7 +129,264 @@ y que su disposición pueda ser flexible entre los bloques interiores */
     justify-content: center;
     align-content: center;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* -----------------   .articuloCentral + .textoCita    ---------------- */
+/* ********************************************************************* */
+
+/* Esta clase modifica el tipo de display que tienen los contenedores <div> con esta clase, la alineación del contenido
+o el color y decoración de las etiquetas <a> dentro de él. También modifica las etiquetas <h2> y <p> cambiando la
+familia utilizada, la alineación del texto o el "peso".  */
+
+
+.articuloCentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.articuloCentral a {
+    text-decoration: underline;
+    color: #003483;
+    font-weight: bolder;
+}
+
+.articuloCentral h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.articuloCentral p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;
+
+}
+
+/* Aquí se modifica la clase .textoCita que se usa dentro de .articuloCentral para modificar las etiquetas <p> y <a>.
+Aquí dentro se modifica la fuente usada, cómo se alinea, el "peso" de la fuente y el tamaño y la decoración y color
+de los links.*/
+
+.articuloCentral .textoCita {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+    color: #111010;
+}
+
+.articuloCentral .textoCita a {
+    color: #111010;
+    text-decoration: underline;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ---------------------       SECTION      ---------------------------- */
+/* -----------   .cuerpoArticulo + .h3Centrado / table  ---------------- */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con la clase .cuerpoArticulo que está dentro de 
+una etiqueta <section> y que se usa en la mayoría de páginas para dar formato al a los artículos escritos,
+a las fotografías mostradas e incluso a las <table> creadas. */
+
+
+
+/* Esta espacio se usa para modificar la clase .cuerpoArticulo que es la principal dentro de las sections: Da desde los márgenes
+y alineamientos hasta cómo se modifica los elementos h dentro de él. */
+.cuerpoArticulo {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 90%;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    display: flex;
+}
+
+
+/* Aquí se modifica la clase .h3Centrado que se usa dentro de .cuerpoArticulo para modificar las etiquetas <h3>.
+Aquí dentro se modifica la fuente usada, cómo se alinea, el "peso" de la fuente y el tamaño */
+.cuerpoArticulo .h3Centrado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+
+/* Este espacio modifica todo lo relacionado con las etiquetas <table> de los artículos a lo largo de la web.
+Desde el tamaño, tipo de borde y color, hasta para quitarle el estilo y decoración a las listas dentro de las tablas. */
+
+.cuerpoArticulo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.cuerpoArticulo table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.cuerpoArticulo table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cuerpoArticulo table ol {
+    list-style: none;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* -------------------------   .fotoIzq     ---------------------------- */
+/* ********************************************************************* */
+
+/* Esta clase modifica el tipo de display que tienen los contenedores <div> que se usan para colocar <p> alineada 
+dentro de los .articuloCentral y .cuerpoArticulo.  */
+
+
+.textoIzq {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+}
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* -------------------------   .fotoIzq     ---------------------------- */
+/* ********************************************************************* */
+
+/* Esta clase modifica el tipo de display que tienen los contenedores <div> que se usan para colocar <img> alineada 
+a la izquierda dentro de los .articuloCentral y .cuerpoArticulo.  */
+
+.fotoIzq {
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 15px;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Esta parte modifica la etiqueta <img> dentro de la clase para que ocupe el 100% del tamaño en el conteneor */
+.fotoIzq img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* -------------------------   .fotoDer     ---------------------------- */
+/* ********************************************************************* */
+
+/* Esta clase modifica el tipo de display que tienen los contenedores <div> que se usan para colocar <img> alineada 
+a la derecha dentro de los .articuloCentral y .cuerpoArticulo.  */
+
+
+/*Este es el bloque de css que se va a usar para dar estilos a las imágenes y a los contenedores de las imágenes*/
+
+.fotoDer {
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 15px;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Esta parte modifica la etiqueta <img> dentro de la clase para que ocupe el 100% del tamaño en el conteneor */
+
+.fotoDer img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* -------------------------       P      ------------------------------ */
+/* ------------------------   .textoCita    ---------------------------- */
+/* ********************************************************************* */
+
+/* Esta clase modifica el texto dentro de las etiquetas <p> con la clase .textoCita, cambiando la font-family, dónde está alineado, 
+el tamaño y dentro de los links con <a> modifica el color con que se ve y la decoración */
+.textoCita {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+    color: #111010;
+}
+
+.textoCita a {
+    color: #111010;
+    text-decoration: underline;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* -----------   .textoCent + h2Centrado / h3Centrado     -------------- */
+/* ********************************************************************* */
+
+/* Esta sección se utiliza para modificar un <div> en el que todo el texto del contenedor está centrado.
+En él se usan las clases .textoCent, .h2Centrado y .h3Centrado que modifican la alineación del contenido y texto.
+En el caso de .h3Centrado modifica también la fuente usada, el "peso" y el tamaño. */ 
+
+.textoCent {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+}
+
+.textoCent .h2Centrado {
+    text-align: center;
+}
+
+.textoCent .h3Centrado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+}
 
 
 /* -----------------------       FOOTER      --------------------------- */
@@ -382,6 +404,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
@@ -391,9 +414,116 @@ footer {
 
 
 
+
+
+
+
+
 /* ##################################################################### */
-/* ########################        ÍNDEX      ########################## */
+/* ###################        INDEX.HTML      ########################## */
 /* ##################################################################### */
+
+/* En este bloque va todo lo relacionado con la página index.html */
+
+
+/* ---------------------       SECTION      ---------------------------- */
+/* ---   .articuloInicial + .tituloArticulos / .tituloPagina   --------- */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con la clase .articuloInicial que está dentro de 
+una etiqueta <section> y que SÓLO SE USA en la página index.html para dar formato al primer artículo 
+de todos que se ve */
+
+
+/* Esta clase sirve para crear el contenedro que se utiliza en el index.html para el título.  */
+.articuloInicial {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+/* Este espacio sirve para crear una clase que afecte solamente a los títulos que existen dentro de .articuloInicial.
+Se modifica el tamaño de la fuente en píxeles, se le da un color y se define al fuente usada. */
+.articuloInicial .tituloArticulos {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #080707;
+}
+
+/* Este espacio sirve para crear una clase que afecte solamente al título de la página principal. Se usa para centrar el contenido
+en la página, indicar el tamaño y color de la fuente, "peso" y tamaño del texto o márgenes del contenedor. */
+.articuloInicial .tituloPagina {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: rgb(77, 75, 75);
+    margin: auto;
+    margin-bottom: 20px;
+
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ---------------------       SECTION      ---------------------------- */
+/* ---------------------   .cuerpoIndex +   ---------------------------- */
+/* ---   .seccionH3 / .seccionH4 / .seccionH5 / citaFinal   ------------ */
+/* ********************************************************************* */
+
+/* En este espacio se modifica todo lo relacionado con la clase .cuerpoIndex que está dentro de 
+una etiqueta <section> y que SÓLO SE USA en la página index.html para dar formato a las entradas de la página inicial */
+
+.cuerpoIndex {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 90%;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+}
+
+.cuerpoIndex a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cuerpoIndex .seccionH3 {
+    border: 1px solid rgb(167, 167, 167);
+    width: 70%;
+    padding: 30px;
+}
+
+.cuerpoIndex .seccionH4 {
+    border: 1px solid rgb(167, 167, 167);
+    width: 50%;
+    padding: 30px;
+}
+
+.cuerpoIndex .seccionH5 {
+    border: 1px solid rgb(167, 167, 167);
+    width: 30%;
+    padding: 30px;
+}
+
+.cuerpoIndex .citaFinal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #727272;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
 
 
 
@@ -412,8 +542,8 @@ footer {
 /* En este bloque va todo lo relacionado con la página enlist_form.html */
 
 
-/* ----------------        Imagen Formulario      ---------------------- */
-/* ------------------        .britonNeedsYou      ---------------------- */
+/* -----------------------        IMG      ----------------------------- */
+/* -----------------        .britonNeedsYou      ----------------------- */
 /* ********************************************************************* */
 
 /* Esta es la clase que da los atributos a la IMG que está dentro del DIV .britonDiv . Se usa para que la 
@@ -425,7 +555,11 @@ del DIV .britonDiv */
     height: 100%;
 }
 
-/* -------------        División Imagen Formulario      ---------------- */
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+/* -------------------------       DIV       --------------------------- */
 /* --------------------        .britonDiv      ------------------------- */
 /* ********************************************************************* */
 
@@ -440,19 +574,22 @@ Dentro de este DIV se usan las clases .britonNeedsYou (ENLIST_FORM.HTML) y .text
     margin: auto;
 }
 
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
-/* -----------------        Sección Formulario      -------------------- */
+
+/* ----------------------        SECTION      -------------------------- */
 /* -----------------        .seccionFormulario      -------------------- */
 /* ********************************************************************* */
 
-/* Esta clase se utiliza para modificar una SECTION dentro de enlist_form.html para separarla de la parte superior  */
+/* Esta clase se utiliza para modificar una etiqueta <section> dentro de enlist_form.html para separarla de la parte superior  */
 .seccionFormulario {
     margin-top: 5%;
 }
 
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 
 
-/* ----------------------        Formulario      ----------------------- */
+/* -------------------------        FORM      --------------------------- */
 /*form / .checkbox / .label-checkbox / .botonFormulario / tituloFormulario*/
 /* ********************************************************************* */
 
@@ -507,6 +644,7 @@ ni encima ni debajo.*/
     display: inline-block;
     /* Permitir que esté en línea */
 }
+
 /* Esta clase se usa para que el texto después del .checkbox vaya en línea y no se coloque ni encima ni debajo.*/
 .label-checkbox {
     display: inline;
@@ -530,8 +668,4 @@ márgenes, color de texto. La clase .botonFormulario:hover sólo modifica el col
     background-color: #45a049;
 }
 
-
-
-
-
-
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
