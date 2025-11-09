@@ -367,7 +367,7 @@ el tamaño y dentro de los links con <a> modifica el color con que se ve y la de
 
 /* Esta sección se utiliza para modificar un <div> en el que todo el texto del contenedor está centrado.
 En él se usan las clases .textoCent, .h2Centrado y .h3Centrado que modifican la alineación del contenido y texto.
-En el caso de .h3Centrado modifica también la fuente usada, el "peso" y el tamaño. */ 
+En el caso de .h3Centrado modifica también la fuente usada, el "peso" y el tamaño. */
 
 .textoCent {
     margin: auto;
@@ -387,6 +387,34 @@ En el caso de .h3Centrado modifica también la fuente usada, el "peso" y el tama
     font-weight: lighter;
     font-size: x-large;
 }
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+/* ------------------------       DIV      ----------------------------- */
+/* --------------------   .claseVideo + video      --------------------- */
+/* ********************************************************************* */
+
+/* Esta sección modifica una etiqueta <div> que se utiliza en específico en la página battle_of_the_somme.html. Sirve
+para dar márgenes al vídeo que va a contener y un tamaño. */
+
+.claseVideo {
+    margin: auto;
+    height: 70%;
+    width: 70%;
+
+}
+
+.claseVideo video {
+    height: 100%;
+    width: 100%;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
 
 
 /* -----------------------       FOOTER      --------------------------- */
